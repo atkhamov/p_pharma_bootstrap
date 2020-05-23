@@ -128,22 +128,66 @@ button, a, a.btn, .svg-inline--fa {
    animation: bounce 2s infinite;
    -webkit-animation: bounce 2s infinite;
 }
-.down-arrow .svg-inline--fa{
+.down-arrow .fa-angle-down{
    color: white;
    font-size: 2.2rem;
    opacity: .3;
 }
-.down-arrow .svg-inline--fa:hover{
+.down-arrow .fa-angle-down:hover{
    opacity: .8;
 }
 
 /*============= FEATURES SECTION =============*/
-
+h3.heading {
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 1.9rem;
+   text-align: center;
+   margin-bottom: 1.9rem;
+}
+.heading-underline {
+   width: 3rem;
+   height: .2rem;
+   background-color: #c69963;
+   margin: 0 auto 2rem;
+}
 
 /*===== FIXED BACKGROUND IMG DARK =====*/
 
 /*--- iOS Fixed Background Image --*/
-
+.fixed {
+   position: relative;
+   width: 100%;
+}
+.fixed-wrap {
+   clip: rect(0, auto, auto, 0);
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: -9999;
+}
+/* .fixed-dark {
+   background-image: url('../img/fixed/apple.jpg');
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+   background-position: center center;
+   -webkit-transform: translateZ(0);
+   transform: translateZ(0);
+   will-change: transform;
+   z-index: -1;
+   top: 0;
+   left: 0;
+   display: table;
+}
+.dark {
+   background-color: rgba(0, 0, 0, .7);
+   padding: 7rem 0;
+   z-index: 1000;
+} */
 
 /*============= PORTFOLIO SECTION =============*/
 
@@ -153,8 +197,56 @@ button, a, a.btn, .svg-inline--fa {
 
 /*============= TEAM SECTION FIXED BG IMG LIGHT =============*/
 
-/*--- Team Light Background Image --*/
-
+/*--- Team (PRODUCTS) Light Background Image --*/
+.fixed-light {
+   background-image: url('../img/fixed/office.jpg');
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+   background-position: center center;
+   -webkit-transform: translateZ(0);
+   transform: translateZ(0);
+   will-change: transform;
+   z-index: -1;
+   top: 0;
+   left: 0;
+   display: table;
+   
+}
+.light {
+   background-color: rgba(255, 255, 255, .75);
+   padding: 5rem 0;
+   z-index: 1000;
+   text-align: center;
+}
+.owl-stage{
+   display: flex;
+}
+.card{
+   height: 100%;
+   border-radius: 0;
+   text-align: center;
+   margin: 0 1rem;
+   border: .1rem solid rgba(0, 0, 0, 0.1);
+   box-shadow: 0 0 .8rem rgba(0, 0, 0, .1);
+   transition: transform .4s ease;
+}
+.card:hover{
+   transform: scale(.97);
+}
+button.owl-dot.active span,
+button.owl-dot:hover span {
+   background: #c69963!important;
+}
+a.btn-primary{
+   background-color: #c69963;
+   border-color: #c69963;
+}
+a.btn-primary:hover{
+   background-color: #505962;
+   border-color: #505962;
+}
 
 /*============= SKILLS SECTION =============*/
 

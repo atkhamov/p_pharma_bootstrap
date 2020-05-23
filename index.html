@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>ProPharma</title>
 	<link rel="shortcut icon" type="image/png" href="img/logo-tab.png">
 	<!-- Bootstrap CSS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<!-- Style.css -->
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Plugins.css -->
@@ -16,17 +16,20 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 	<!-- Animate.css https://cdnjs.com/libraries/animate.css/
 		https://daneden.github.io/animate.css/ -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 	<!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
-	<link rel="stylesheet" href="css/lightbox.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
 	<!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
 		http://owlcarousel2.github.io/OwlCarousel2/ -->
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 	<!-- jQuery https://code.jquery.com/ NOTE: jQuery 3.5.0 is not Compatible with Bootstrap yet, please use 3.4.1 as seen below -->
-	<script src="http://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	
 	<!-- Bootstrap JS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
 </head>
 <body data-spy="scroll" data-target="#navbarResponsive">
 
@@ -69,31 +72,81 @@
 
 		<!-- Start Landing Page Caption -->
 		<div class="caption text-center text-light text-uppercase">
-			<h1 class="font-weight-bold os-animation" data-animation="animate__bounceInUp" data-delay=".6s">The Ultimate Partner</h1>
-			<h3 class="font-weight-bold os-animation" data-animation="animate__bounceInUp" data-delay=".8s">
+			<h1 class="font-weight-bold os-animation" data-animation="fadeInUp" data-delay=".6s">The Ultimate Partner</h1>
+			<h3 class="os-animation" data-animation="fadeInUp" data-delay=".8s">
 				<span class="text-pro">ProPharma.Kz</span>
 			</h3>
-			<a href="#products" class="btn btn-outline-light btn-lg rounded-0 os-animation" data-animation="animate__bounceInUp" data-delay="1s">More</a>
+			<a href="#products" class="btn btn-outline-light btn-lg rounded-0 os-animation" data-animation="fadeInUp" data-delay="1s">More</a>
 		</div>
 		<!-- End Landing Page Caption -->
 
 		<!-- Start Bouncing Down Arrow -->
 		<a href="#products" class="down-arrow text-center">
 			<div class="arrow d-none d-md-block">
-				<i class="fas fa-angle-down"></i>
+				<i class="fas fa-angle-down"></i>		
 			</div>
 		</a>
 		<!-- End Bouncing Down Arrow -->
 	</div>
-	<!-- End Home Section -->
-	<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptatum asperiores, expedita accusantium illo officiis nesciunt eum libero alias consectetur architecto! Pariatur unde dignissimos numquam doloremque excepturi dolores dolor tempora! Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid illum dolorem, optio in consectetur veritatis. Exercitationem dolorem quos officia voluptatum repellendus, maiores cum architecto harum, accusantium a quidem? Recusandae, sit.</h1>
-	<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptatum asperiores, expedita accusantium illo officiis nesciunt eum libero alias consectetur architecto! Pariatur unde dignissimos numquam doloremque excepturi dolores dolor tempora! Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid illum dolorem, optio in consectetur veritatis. Exercitationem dolorem quos officia voluptatum repellendus, maiores cum architecto harum, accusantium a quidem? Recusandae, sit.</h1>
-	<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptatum asperiores, expedita accusantium illo officiis nesciunt eum libero alias consectetur architecto! Pariatur unde dignissimos numquam doloremque excepturi dolores dolor tempora! Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid illum dolorem, optio in consectetur veritatis. Exercitationem dolorem quos officia voluptatum repellendus, maiores cum architecto harum, accusantium a quidem? Recusandae, sit.</h1>
-	<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptatum asperiores, expedita accusantium illo officiis nesciunt eum libero alias consectetur architecto! Pariatur unde dignissimos numquam doloremque excepturi dolores dolor tempora! Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid illum dolorem, optio in consectetur veritatis. Exercitationem dolorem quos officia voluptatum repellendus, maiores cum architecto harum, accusantium a quidem? Recusandae, sit.</h1>
-	
+	<!-- End Home Section -->	
 
 	<!-- Start Products Section -->
-	<div id="products">
+	<div id="products" class="offset">
+
+		<!-- Start Fixed BG IMG Light -->
+		<div class="fixed">
+
+			<div class="row light">
+				<div class="col-12 os-animation" data-animation="fadeInUp">
+					<h3 class="heading">Products</h3>
+					<div class="heading-underline"></div>
+				</div>
+
+				<div class="container">
+					<div class="os-animation" data-animation="fadeInUp">
+						<div id="team-carousel" class="owl-carousel owl-theme">
+
+
+							<div class="card"> <!--Start Card-->
+								<img src="img/pills-bottle-1.jpg" alt="" class="card-img-top rounded-0">
+								
+								<div class="card-body">
+									<h4 class="font-weight-bold">
+										Product 1
+									</h4>
+									<h5 class="text-pro">
+										Content 1
+									</h5>
+									<p class="border-top border-bottom py-3 my-3">Lorem ipsum dolor sit amet.</p>
+									<a class="btn btn-primary" href="#" role="button">More</a>
+								</div>
+							</div> <!--End Card-->
+
+							<div class="card"> <!--Start Card-->
+								<img src="img/pills-bottle.jpg" alt="" class="card-img-top rounded-0">
+								
+								<div class="card-body">
+									<h4 class="font-weight-bold">
+										Product 2
+									</h4>
+									<h5 class="text-pro">
+										Content 2
+									</h5>
+									<p class="border-top border-bottom py-3 my-3">Lorem ipsum dolor sit amet.</p>
+									<a class="btn btn-primary" href="#" role="button">More</a>
+								</div>
+							</div> <!--End Card-->
+
+						</div> <!--End Team Carousel-->
+					</div> <!--End Animation-->
+				</div> <!--End Container-->
+			</div> <!--End Row-->
+
+			<div class="fixed-wrap">
+				<div class="fixed-light"></div>
+			</div>
+		</div>
+		<!-- End Fixed BG IMG Light -->
 
 	</div>
 	<!-- End of Products Section -->
@@ -119,12 +172,13 @@
 		https://github.com/imakewebthings/waypoints -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 	<!-- Font Awesome https://fontawesome.com/  https://use.fontawesome.com/releases/v5.11.2/js/all.js -->
-	<script src="https://kit.fontawesome.com/397108bee2.js" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
 	<!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
-	<script src="js/lightbox.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+	
 	<!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
 		http://owlcarousel2.github.io/OwlCarousel2/ -->
-	<script src="js/owl.carousel.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 	<!-- jQuery CounterUp https://www.jsdelivr.com/package/npm/jquery.counterup
 		https://github.com/bfintal/Counter-Up2 -->
 
