@@ -278,8 +278,25 @@ ul.social li a:hover {
 /*============= SKILLS SECTION =============*/
 
 
-/*============= CLIENTS SECTION =============*/
-
+/*============= CLIENTS (NEWS) SECTION =============*/
+#news-carousel{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.news img{
+   border-radius: 2%;
+   transition: transform .3s ease;
+}
+.news img:hover{
+   transform: scale(.95);
+}
+blockquote .svg-inline--fa{
+   margin: 1rem;
+   color: #c69963;
+}
+.news-hr{
+   border-top: .1rem solid #c69963;
+}
 
 /*============= CONTACT SECTION =============*/
 .footer{
