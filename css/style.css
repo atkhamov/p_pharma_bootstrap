@@ -283,6 +283,24 @@ ul.social li a:hover {
    max-width: 1200px;
    margin: 0 auto;
 }
+.img-cont{
+   position: relative;
+   display: inline-block;
+   
+}
+/* .img-cont:after{
+   content: '';
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   display: inline-block;
+   background: -moz-linear-gradient(top, rgba(16, 29, 44, .73), rgba(16, 29, 44, .43));
+}
+.img-cont img{
+   display: block;
+} */
 .news img{
    border-radius: 2%;
    transition: transform .3s ease;
@@ -366,7 +384,24 @@ hr.socket{
 }
 
 /*============= TOP SCROLL =============*/
+a.top-scroll{
+   right: 1.2rem;
+   bottom: 1.2rem;
+   position: fixed;
+   opacity: .3;
+   z-index: 1000;
+   display: none;
+}
+a.top-scroll:hover{
+   opacity: .5;
+}
 
+.top-scroll .svg-inline--fa{
+   background: white;
+   color: #53595f;
+   font-size: 3rem;
+   height: 1.7rem;
+}
 
 /*============= MEDIA QUERIES =============*/
 
