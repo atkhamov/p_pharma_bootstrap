@@ -104,6 +104,11 @@ $(document).ready(function () {
 });
 
 /*========== MAKE ALL ANIMATION "FADEINUP" ON MOBILE ==========*/
+$(document).ready(function () {
+    if ($(window).width() < 760) {
+        $('div').attr('data-animation', 'fadeInUp');
+    }
+});
 
 
 
