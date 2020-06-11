@@ -14,7 +14,12 @@ html, body{
    color: #c69963;
 }
 /*--- Nav Scrolling Offset --*/
-
+.offset::before{
+   content: "";
+   height: 4rem;
+   display: block;
+   margin-top: -4rem;
+}
 /*--- Extra Bootstrap Column Padding --*/
 
 
@@ -176,8 +181,8 @@ h3.heading {
    left: 0;
    z-index: -9999;
 }
-/* .fixed-dark {
-   background-image: url('../img/fixed/apple.jpg');
+.fixed-dark {
+   background-image: url('../img/pills-2.jpg');
    position: fixed;
    height: 100%;
    width: 100%;
@@ -193,9 +198,9 @@ h3.heading {
 }
 .dark {
    background-color: rgba(0, 0, 0, .7);
-   padding: 7rem 0;
+   padding: 7rem 5rem;
    z-index: 1000;
-} */
+}
 
 /*============= PORTFOLIO SECTION =============*/
 
