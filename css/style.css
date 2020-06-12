@@ -11,7 +11,7 @@ html, body{
    color: #505962;
 }
 .text-pro{
-   color: #c69963;
+   color: #ef7f1a;
 }
 /*--- Nav Scrolling Offset --*/
 .offset::before{
@@ -44,7 +44,7 @@ html, body{
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover{
-   color: #C69963;
+   color: #ef7f1a;
 }
 .custom-toggler-icon{
    color: white;
@@ -161,7 +161,7 @@ h3.heading {
 .heading-underline {
    width: 3rem;
    height: .2rem;
-   background-color: #c69963;
+   background-color: #ef7f1a;
    margin: 0 auto 2rem;
 }
 
@@ -249,11 +249,11 @@ h3.heading {
 }
 button.owl-dot.active span,
 button.owl-dot:hover span {
-   background: #c69963!important;
+   background: #ef7f1a!important;
 }
 a.btn-primary{
-   background-color: #c69963;
-   border-color: #c69963;
+   background-color: #ef7f1a;
+   border-color: #ef7f1a;
 }
 a.btn-primary:hover{
    background-color: #505962;
@@ -272,7 +272,7 @@ ul.social li {
    padding-right: .8rem;
 }
 ul.social li a {
-   color: #C69963;
+   color: #ef7f1a;
    transition: all .2s ease;
 }
 ul.social li a:hover {
@@ -314,11 +314,11 @@ ul.social li a:hover {
 }
 blockquote .fa-quote-left{
    margin: 1rem;
-   color: #c69963;
+   color: #ef7f1a;
 }
 blockquote .fa-angle-double-right{
    margin-left: .5rem;
-   color: #c69963;
+   color: #ef7f1a;
    font-size: 1rem;
 }
 blockquote .fa-angle-double-right:hover{
@@ -351,7 +351,7 @@ blockquote .fa-angle-double-right:hover{
    color: white;
 }
 .footer ul.social li a:hover{
-   color: #C69963;
+   color: #ef7f1a;
 }
 .footer h3{
    text-transform: uppercase;
@@ -413,7 +413,7 @@ a.top-scroll:hover{
 
 .top-scroll .svg-inline--fa{
    background: white;
-   color: #53595f;
+   color: #535962;
    font-size: 3rem;
    height: 1.7rem;
 }
