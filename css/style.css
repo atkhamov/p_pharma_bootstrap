@@ -101,16 +101,21 @@ button, a, a.btn, .svg-inline--fa {
    will-change: transform;
    display: table;
 }
-.home-news-wrap{
-   clip: rect(0, auto, auto, 0);
-   position: absolute;
-   height: 100%;
-   width: 100%;
-   top: 0;
-   left: 0;
-}
 .home-news-inner{
    background-image: linear-gradient(rgba(16, 29, 44, .93), rgba(16, 29, 44, .73)), url('../img/register.jpg');
+   /* background-image: url('../img/pills.jpg'); */
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+   background-position: center center;
+   -webkit-transform: translateZ(0);
+   transform: translateZ(0);
+   will-change: transform;
+   display: table;
+}
+.home-product-inner{
+   background-image: linear-gradient(rgba(16, 29, 44, .93), rgba(16, 29, 44, .73)), url('../img/update.jpg');
    /* background-image: url('../img/pills.jpg'); */
    position: fixed;
    height: 100%;
