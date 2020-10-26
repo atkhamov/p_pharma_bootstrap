@@ -14,7 +14,7 @@
 	<!-- Plugins.css -->
 	<link rel="stylesheet" href="css/plugins.css">
 	<!-- Google Fonts https://fonts.google.com/ -->
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
 	<!-- Animate.css https://cdnjs.com/libraries/animate.css/
 		https://daneden.github.io/animate.css/ -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
@@ -51,19 +51,19 @@
 					  </li>
 
 						<li class="nav-item">
-							<a href="#news" class="nav-link">News</a>
+							<a href="#news" class="nav-link">Новости</a>
 						</li>
 
 						<li class="nav-item">
-							<a href="#about" class="nav-link">About</a>
+							<a href="#about" class="nav-link">Компания</a>
 						</li>
 
 						<li class="nav-item">
-							<a href="#products" class="nav-link">Products</a>
+							<a href="#products" class="nav-link">Услуги</a>
 						</li>
 
 						<li class="nav-item">
-							<a href="#contact" class="nav-link">Contact</a>
+							<a href="#contact" class="nav-link">Контакты</a>
 						</li>
 					</ul>
 				</div>
@@ -81,11 +81,11 @@
 
 		<!-- Start Landing Page Caption -->
 		<div class="caption text-center text-light text-uppercase">
-			<h1 class="font-weight-bold os-animation" data-animation="fadeInUp" data-delay=".6s">The Ultimate Partner</h1>
+			<h1 class="os-animation" data-animation="fadeInUp" data-delay=".6s">Надежный партнер в решении вопросов в сферах регистрации и валидации</h1>
 			<!-- <h3 class="os-animation" data-animation="fadeInUp" data-delay=".8s">
 				<span class="text-pro">ProPharma.Kz</span>
 			</h3> -->
-			<a href="#products" class="btn btn-outline-light btn-lg rounded-0 os-animation" data-animation="fadeInUp" data-delay="1s">More</a>
+			<a href="#products" class="btn btn-outline-light btn-lg rounded-0 os-animation" data-animation="fadeInUp" data-delay="1s">Подробнее</a>
 		</div>
 		<!-- End Landing Page Caption -->
 
@@ -100,12 +100,13 @@
 	<!-- End Home Section -->
 
 
+
 	<!-- Start News Section -->
 	<div id="news" class="offset py-5">
 		<div class="row py-5">
 
 			<div class="col-12 os-animation" data-animation="fadeInUp">
-				<h3 class="heading">News</h3>
+				<h3 class="heading">Новости</h3>
 				<div class="heading-underline"></div>
 			</div>
 
@@ -175,7 +176,7 @@
 		<div class="fixed">
 			<div class="row dark text-light text-center">
 				<div class="col-12 os-animation" data-animation="fadeInUp">
-					<h3 class="heading">About Us</h3>
+					<h3 class="heading">О нас</h3>
 					<div class="heading-underline"></div>
 				</div>
 
@@ -201,7 +202,7 @@
 
 			<div class="row light">
 				<div class="col-12 os-animation" data-animation="fadeInUp">
-					<h3 class="heading">Products</h3>
+					<h3 class="heading">Услуги</h3>
 					<div class="heading-underline"></div>
 				</div>
 
@@ -265,11 +266,11 @@
 						
 						<div class="col-md-5 px-0 pr-md-3">
 							<img src="img/logo.png" alt="">
-							<p>Some content. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facere.</p>
-							<strong>Our Location</strong>
+							<p>Мы - компания с профессиональными экспертами в сфере регистрации медицинских изделий и валидации.</p>
+							<strong>Наш адрес:</strong>
 							<p>100 Street Name <br> Our City, AA100000</p>
-							<strong>Contact Info</strong>
-							<p>888-99999999<br>contact@propharma.kz</p>
+							<strong>Наши контакты:</strong>
+							<p>888-99999999<br>info@propharma.kz</p>
 
 							<ul class="social pt-3">
 								<li><a href=""><i class="fab fa-facebook-square"></i></a></li>
@@ -280,7 +281,7 @@
 
 						<!-- Start Contact Form -->
 						<div class="col-md-7 px-0 pl-md-3">
-							<h3>Contact Us</h3>
+							<h3>Оставить заявку</h3>
 
 							<!-- Below the contact.php should be changed to something which is supported by Django -->
 							<form action="contact/contact.php" method="POST" id="contact-form">
@@ -288,23 +289,23 @@
 								
 								<div class="controls">
 									<div class="form-group">
-										<input type="text" id="form_name" class="form-control" name="name" required="required" placeholder="Enter your name">
+										<input type="text" id="form_name" class="form-control" name="name" required="required" placeholder="Ваше Ф.И.О">
 									</div>
 									
 									<div class="form-group">
-										<input type="email" id="form_email" class="form-control" name="email" required="required" placeholder="Enter your email">
+										<input type="email" id="form_email" class="form-control" name="email" required="required" placeholder="Ваш email адрес">
 									</div>
 
 									<div class="form-group">
-										<input type="text" id="form_phone" class="form-control" name="phone" required="required" placeholder="Enter your phone number">
+										<input type="text" id="form_phone" class="form-control" name="phone" required="required" placeholder="Ваш номер телефона">
 									</div>
 
 									<div class="form-group">
-										<textarea name="message" id="form_message" rows="2" class="form-control" required="required" placeholder="Add your message">
+										<textarea type="message" placeholder="Ваше сообщение" name="message" id="form_message" rows="2" class="form-control" required="required">
 										</textarea>
 									</div>
 
-									<input type="submit" class="btn btn-outline-light rounded-0 btn-sm" value="Send Massage">
+									<input type="submit" class="btn btn-outline-light rounded-0 btn-sm" value="Отправить">
 								</div> <!--End Controls-->
 							</form> <!--End Form-->
 						</div>
