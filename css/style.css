@@ -9,6 +9,7 @@ html, body{
    overflow-x: hidden;
    font-family: 'Roboto', sans-serif;
    color: #505962;
+   font-weight: 300;
 }
 .text-pro{
    color: #ef7f1a;
@@ -30,7 +31,7 @@ html, body{
 .navbar{
    padding: .7rem 1rem;
    text-transform: uppercase;
-   font-weight: 700;
+   font-weight: 400;
    letter-spacing: 0.1rem;
    font-size: 0.9rem;
    transition: background-color .5s ease;
@@ -136,13 +137,13 @@ button, a, a.btn, .svg-inline--fa {
    max-width: 100%;
 }
 .caption h1{
-   font-size: 4rem;
+   font-size: 2.5rem;
    letter-spacing: .2rem;
    text-shadow: .1rem .1rem .8rem black;
    padding-bottom: 1rem;
 }
 .caption h3{
-   font-size: 2.5rem;
+   font-size: 2rem;
    text-shadow: .1rem .1rem .9rem black;
    padding-bottom: 2rem;
 }
