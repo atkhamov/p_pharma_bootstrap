@@ -142,11 +142,11 @@ button, a, a.btn, .svg-inline--fa {
    text-shadow: .1rem .1rem .8rem black;
    padding-bottom: 1rem;
 }
-.caption h3{
+/* .caption h3{
    font-size: 2rem;
    text-shadow: .1rem .1rem .9rem black;
    padding-bottom: 2rem;
-}
+} */
 .caption .btn-lg{
    border-width: medium;
    padding: .8rem 1.5rem;
