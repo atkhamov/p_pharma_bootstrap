@@ -7,7 +7,7 @@ html{
 /*-- Prevent Horizontal Scrolling & Font Style --*/
 html, body{
    overflow-x: hidden;
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Montserrat', sans-serif;
    color: #505962;
    font-weight: 300;
 }
@@ -142,6 +142,47 @@ button, a, a.btn, .svg-inline--fa {
    text-shadow: .1rem .1rem .8rem black;
    padding-bottom: 1rem;
 }
+/* Start of Text typing animation's style */
+/* .container{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} */
+
+.container h2 {
+   font-size: 3rem;
+   font-weight: 100;
+   letter-spacing: 0.1rem;
+   text-align: center;
+   overflow: hidden;
+   padding: 0.5rem;
+}
+
+.typed-text{
+   font-weight: normal;
+   color: #dd7732;
+}
+
+.cursor{
+   display: inline-block;
+   width: 3px;
+   background-color: #ccc;
+   margin-left: 0.1rem;
+   animation: blink 1s infinite;
+}
+.cursor.typing{
+   animation: none;
+}
+@keyframes blink{
+   0% {background-color: #ccc;}
+   49% {background-color: #ccc;}
+   50% {background-color: transparent;}
+   99% {background-color: transparent;}
+   100% {background-color: #ccc;}
+}
+/* End of the Text-typing animation's style */
+
 /* .caption h3{
    font-size: 2rem;
    text-shadow: .1rem .1rem .9rem black;
