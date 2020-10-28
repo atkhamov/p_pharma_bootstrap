@@ -150,14 +150,14 @@ button, a, a.btn, .svg-inline--fa {
    align-items: center;
 } */
 
-.container h2 {
+/* .container h2 {
    font-size: 3rem;
    font-weight: 100;
    letter-spacing: 0.1rem;
    text-align: center;
    overflow: hidden;
    padding: 0.5rem;
-}
+} */
 
 .typed-text{
    font-weight: normal;
