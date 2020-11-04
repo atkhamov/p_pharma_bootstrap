@@ -36,6 +36,14 @@ html, body{
    font-size: 0.9rem;
    transition: background-color .5s ease;
 }
+.navbarNews{
+   padding: .7rem 1rem;
+   text-transform: uppercase;
+   font-weight: 400;
+   letter-spacing: 0.1rem;
+   font-size: 0.9rem;
+   transition: background-color .5s ease;
+}
 .navbar-nav li{
    padding-right: 0.8rem;
 }
