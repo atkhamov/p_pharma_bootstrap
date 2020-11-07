@@ -514,6 +514,10 @@ a.top-scroll:hover{
    height: 1.7rem;
 }
 
+/*============= NEWSREPORT STYLES =========*/
+.listing-preview a {
+   position: relative; }
+
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 992px (lg) */
