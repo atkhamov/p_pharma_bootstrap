@@ -518,6 +518,19 @@ a.top-scroll:hover{
 .listing-preview a {
    position: relative; }
 
+/*============= PAGINATION STYLES =========*/
+.page-link{
+   color: #ef7f1a;
+   background-color: #fff;
+}
+.page-link:hover{
+   color: #505962!important;
+}
+.page-item.active .page-link{
+   background-color: #505962!important;
+   border-color: #505962!important;
+}
+
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 992px (lg) */
